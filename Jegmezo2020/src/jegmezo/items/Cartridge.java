@@ -1,5 +1,5 @@
 package jegmezo.items;
 
-public class Cartridge {
+public class Cartridge extends Item{
 
 }
