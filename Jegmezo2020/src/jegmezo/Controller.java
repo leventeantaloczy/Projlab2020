@@ -4,7 +4,18 @@ import jegmezo.fields.*;
 import jegmezo.items.*;
 
 public class Controller {
+	public void startGame() {
+		System.out.println("<Controller.startGame()");
+		System.out.println(">Controller.startGame()");
+	}
+	
+	public void Strom() {
+		System.out.println("<Controller.Storm");
+		System.out.println(">Controller.Storm");
+	}
+	
+	
 	public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("A legjobb tárgy a Projlab!! -help ;)");
     }
 }
