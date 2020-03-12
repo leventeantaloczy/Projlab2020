@@ -6,6 +6,7 @@ import jegmezo.items.*;
 public class GameArea {
 	//Ide kell majd két tömb tárolni
 	
+	
 	public GameArea() {
 		System.out.println("<GameArea.constructor()");
 		
