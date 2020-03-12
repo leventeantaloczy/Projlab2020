@@ -1,5 +1,6 @@
 package jegmezo;
 import jegmezo.avatars.*;
+import javafx.scene.layout.Border;
 import jegmezo.fields.*;
 import jegmezo.items.*;
 
@@ -24,7 +25,8 @@ public class GameArea {
 		
 		System.out.println("Creating and adding as many avatars as many are needed");
 
-		Avatar avatar = new Avatar();
+		Eskimo avatar = new Eskimo();
+		Researcher researcher = new Researcher();
 		
 		System.out.println(">GameArea.constructor()");
 	}
